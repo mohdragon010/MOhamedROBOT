@@ -1,0 +1,168 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+body {
+    background: linear-gradient(to right, #e0eafc, #cfdef3);
+    margin: 0;
+    padding: 0; /* Added padding for spacing around the container */
+}
+
+.container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px; /* Increased padding for more space inside the container */
+    max-width: 900px; /* Increased max-width for more space */
+    width: 100%;
+    margin-bottom: 20px; /* Added margin-bottom for spacing between sections */
+}
+
+.text {
+    padding: 15px;
+    margin-right: 20px; /* Added margin to the right for more space between text and image */
+}
+
+.text .name {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 10px; /* Added margin-bottom for spacing between elements */
+}
+
+.text .author {
+    font-size: 1.2em;
+    color: #666;
+}
+
+.img img {
+    height: 350px;
+    width: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.robot-info {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 900px; /* Set max-width to match the container */
+    margin-bottom: 20px; /* Added margin-bottom for spacing between sections */
+    padding: 20px; /* Padding inside the section */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-title {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px; /* Space below the title */
+}
+
+.info-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px; /* Space between images */
+}
+
+.info-images img {
+    width: 140px; /* Set a fixed width for images */
+    height: 140px; /* Set a fixed height for images */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.ctrl {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.ctrl-title {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px; /* Space below the title */
+}
+
+.movement {
+    display: flex;
+    gap: 20px; /* Space between the buttons */
+}
+
+.movement button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 25px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.movement button:hover {
+    background-color: #0056b3;
+    transform: scale(1.1);
+}
+/* Existing CSS remains the same */
+
+.info-image {
+    text-align: center; /* Center the image and title */
+    margin-bottom: 20px; /* Add space between images */
+}
+
+.image-title {
+    font-size: 1em;
+    color: #333;
+    margin-top: 5px; /* Space above the title */
+}
+.imgss{
+    height:200px ;
+    width: 100px;
+    transition: 0.5s;
+}
+/* Existing CSS remains the same */
+.area{
+    height: 100vh;
+    width: 100%;
+    background-color: #fff;
+    margin-top: 50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.processing{
+    background-color: #e9e9e9;
+    height: 500px;
+    width: 700px;
+    border-radius: 25px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.processing p{
+    background-color: #333;
+    color: #cfdef3;
+    padding: 15px;
+    border-radius: 13px;
+}
+.imgss:hover{
+    transform: scale(1.1);    
+}
